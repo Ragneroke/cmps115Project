@@ -22,14 +22,12 @@ The below testing aspects are referenced [here](https://tfortesting.wordpress.co
 		- Clipping was tested via playing with physics limitations and maintaining separate level design for background versus a collisions map
 	- Test whether one object overlaps with another
 		- The collision map was tested by continously forcing the slug to move into edge cases such as cliffs and walls to ensure no areas were reachable unless we wanted them to be
-	- Character should not move out of the screen/specified area
 	- Test for enable and disable images/icons/buttons etc
+		- To test for the disabling of images we implemented a transparency test with a pickup slice of pizza in order to ensure it would go from foreground to background. After many tests with different values we were able to have the building appear and disappear from player view.
 	- Check for screen title
+		- We tested by starting the game several times. The starting screen appeared normally
 	- Check scrolling
 		- We checked scrollability of leaderboard by adding several usernames and scrolling it(Added 15 users).
-	- Font displayed (color, size etc)
-		
-	- Check other objects
 
 ### Performance
 
