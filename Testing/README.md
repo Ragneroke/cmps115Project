@@ -47,7 +47,7 @@ The below testing aspects are referenced [here](https://tfortesting.wordpress.co
 	- Verify leaderboards and Check the score registration functionality
 		- Added several results to leaderboards, and checked that the synchronization between database and user interbase. Worked fine. We did it by deleting the columns in the remote db, and checking that the local database's columns has disappeared.
 	- Check the format (whether, comma is required in score etc ideally if customer is a foriegner coma should be in millions not in thousands)
-		- Restricted the maximum username to 12 characters since initially it was overlapping with the score. Tested by registering unexpected usernames.
+		- Restricted the maximum username to 10 characters since initially it was overlapping with the score. Tested by registering unexpected usernames.
 	- Check for level completion syncs with the score
 		- Tester checked by finishing the game and getting into portals(for 10 times). The socres displayed while in gameplay and the score displayed when level completion were identical.
 
